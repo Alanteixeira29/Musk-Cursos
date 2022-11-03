@@ -84,6 +84,21 @@ main {
     color: white;
 }
 
+.botao-sm2 {
+    color: #2b2b2b;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    top: ;
+    margin-left: 1300px;
+}
+
+.botao-sm2:hover{
+    transition: 0.3s all;
+    background-color: #2b2b2b;
+    color: white;
+}
+
 .estudo {
     width: 1000px;
     height: 600px;
@@ -122,8 +137,132 @@ main {
 }
 
 .botao-login:hover {
-    border-color: rgb(0, 81, 150);
-    color: rgb(0, 81, 150);
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 81, 255);
+    text-decoration: underline;
+}
+
+.sobrenos {
+    background-color: #2b2b2b;
+    color: white;
+    margin-top: 300px;
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.flecha {
+    width: 50px;
+    margin-left: 950px;
+    margin-top: 90px;
+    opacity: 70%;
+}
+
+.flecha:hover{
+    opacity: 100%;
+}
+
+.bloco-1 {
+    background-color: #2b2b2b;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 14px;
+    margin-left: 50px;
+    margin-top: -162px;
+}
+
+.bloco-1:hover{
+    cursor: pointer;
+}
+
+.bloco-1-1 {
+    background-color: gray;
+    padding: 10px;
+    width: 130px;
+    height: 140px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: -105px;    
+}
+
+.bloco-1-1:hover{
+    cursor: pointer;
+}
+
+.html {
+    width: 90px;
+    margin-left: 83px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.promocoes-2 {
+    border: 2px solid #2b2b2b;
+    border-radius: 15px;
+    margin-top: -30px;
+    height: 200px;
+    width: 400px;
+}
+
+.promocoes-2:hover {
+    cursor: pointer;
+}
+
+.bloco-2 {
+    background-color: #2b2b2b;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 14px;
+    margin-left: 30px;
+    margin-top: -162px;
+}
+
+.bloco-2:hover{
+    cursor: pointer;
+}
+
+.bloco-02 {
+    background-color: gray;
+    padding: 10px;
+    width: 130px;
+    height: 140px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.bloco-02:hover{
+    cursor: pointer;
+}
+
+.css {
+    width: 90px;
+    margin-left: 64px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.promocoes-3 {
+    border: 2px solid #2b2b2b;
+    border-radius: 15px;
+    margin-top: -200px;
+    height: 200px;
+    width: 400px;
+    margin-left: 420px;
+    position: absolute;
+}
+
+.promocoes-3:hover {
+    cursor: pointer;
 }
 
 #logo-musk {
@@ -158,4 +297,131 @@ main {
     margin-top: 40px;
     margin-left: 1180px;
     color: #2b2b2b;
+}
+
+#linha-txt {
+    padding: 2px;
+    color: #2b2b2b;
+    margin-top: 334px;
+    margin-left: 999px;
+}
+
+#sobre {
+    color: white;
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+#musk {
+    color: rgb(0, 81, 255);
+    margin-top: -105px;
+    margin-left: 240px;
+    font-size: 60px;
+    opacity: 100%;
+}
+
+
+#p-index {
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+#promocoes {
+    font-size: 60px;
+}
+
+#promos-limitadas {
+    font-size: 61px;
+    color: rgb(5, 209, 5);
+}
+
+#html5 {
+    margin-top: 5px;
+    margin-left: 90px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#hr-html{
+    margin-top: -170px;
+    margin-left: 220px;
+    font-size: 35px;
+}
+
+#hr-html:hover {
+    cursor: pointer;
+}
+
+#preco-antg{
+    color: red;
+    text-decoration: line-through;
+    margin-top: -18px;
+    margin-left: 220px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#preco-novo {
+    color: rgb(2, 187, 2);
+    margin-left: 220px;
+    margin-top: -10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#hr-html-2{
+    margin-top: -170px;
+    margin-left: 650px;
+    font-size: 35px;
+}
+
+#hr-html-2:hover {
+    cursor: pointer;
+}
+
+#preco-antg-2{
+    color: red;
+    text-decoration: line-through;
+    margin-top: -18px;
+    margin-left: 650px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#preco-novo-2 {
+    color: rgb(2, 187, 2);
+    margin-left: 650px;
+    margin-top: -10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#css3 {
+    margin-top: 5px;
+    margin-left: 90px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#coracao {
+    font-size: 30px;
+    margin-top: -180px;
+    margin-left: 350px;
+}
+
+#coracao:hover {
+    color: red;
+}
+
+#coracao-1 {
+    font-size: 30px;
+    margin-top: -180px;
+    margin-left: 350px;
+}
+
+#coracao-1:hover {
+    color: red;
 }
