@@ -1,7 +1,12 @@
 body {
     color: white;
+    display: inline;
     padding: 0;
     margin: 0;
+    max-height: 2000px;
+    min-height: 500px;
+    max-width: 2000px;
+    min-width: 500px;
 }
 
 header {
@@ -36,27 +41,30 @@ hr{
 }
 
 h1 {
-    font-size: 60px;
-    margin-top: -50px;
+    font-size: 70px;
+    margin-top: -30px;
     color: rgb(0, 81, 255);
+    margin-left: 20px;
 }
 
 h2 {
-    font-size: 40px;
-    margin-left: 50px;
+    font-size: 50px;
+    margin-left: 10px;
     color: #2b2b2b;
 }
 
 h3 {
-    font-size: 20px;
-    margin-top: -50px;
+    font-size: 25px;
+    margin-top: -60px;
     color: #2b2b2b;
+    margin-left: 30px;
 }
 
 h4 {
     font-size: 20px;
     margin-top: 60px;
     color: #2b2b2b;
+    margin-left: 20px;
 }
 
 main {
@@ -65,9 +73,15 @@ main {
 }
 
 .navegation {
-    margin-left: 1250px;
-    position: absolute;
-    top: 50px;
+    margin-left: 1150px;
+    position: relative;
+    margin-top: -50px;
+}
+
+.navegation-2 {
+    margin-left: 1150px;
+    position: relative;
+    margin-top: -50px;
 }
 
 .botao-sm {
@@ -75,7 +89,10 @@ main {
     border: 2px solid;
     border-radius: 15px;
     padding: 10px;
-    margin-top: 60px;
+    margin-top: -40px;
+    margin-left: 300px;
+    font-size: 20px;
+    position: absolute;
 }
 
 .botao-sm:hover{
@@ -89,7 +106,6 @@ main {
     border: 2px solid;
     border-radius: 15px;
     padding: 10px;
-    top: ;
     margin-left: 1300px;
 }
 
@@ -137,9 +153,8 @@ main {
 }
 
 .botao-login:hover {
-    border-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 81, 255);
+    color: #2b2b2b;
+    background-color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 
@@ -148,18 +163,22 @@ main {
     color: white;
     margin-top: 300px;
     margin-left: 0px;
-    padding: 20px;
+    padding: 70px;
 }
 
 .flecha {
     width: 50px;
-    margin-left: 950px;
-    margin-top: 90px;
-    opacity: 70%;
+    margin-left: 580px;
+    margin-top: -100px;
+    position: absolute;
 }
 
-.flecha:hover{
-    opacity: 100%;
+
+.flecha-2 {
+    width: 50px;
+    margin-left: 1230px;
+    margin-top: -100px;
+    position: absolute;
 }
 
 .bloco-1 {
@@ -192,6 +211,96 @@ main {
     cursor: pointer;
 }
 
+.bloco-03 {
+    background-color: #2b2b2b;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 14px;
+    margin-left: 20px;
+    margin-top: -162px;
+}
+
+.bloco-03:hover{
+    cursor: pointer;
+}
+
+.bloco-3 {
+    background-color: gray;
+    padding: 10px;
+    width: 130px;
+    height: 140px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;    
+}
+
+.bloco-3:hover{
+    cursor: pointer;
+}
+
+.bloco-04 {
+    background-color: #2b2b2b;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 14px;
+    margin-left: 20px;
+    margin-top: -162px;
+}
+
+.bloco-04:hover{
+    cursor: pointer;
+}
+
+.bloco-4 {
+    background-color: gray;
+    padding: 10px;
+    width: 130px;
+    height: 140px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -110px;
+}
+
+.bloco-4:hover{
+    cursor: pointer;
+}
+
+.bloco-05 {
+    background-color: #2b2b2b;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 14px;
+    margin-left: 20px;
+    margin-top: -162px;
+}
+
+.bloco-05:hover{
+    cursor: pointer;
+}
+
+.bloco-5 {
+    background-color: gray;
+    padding: 10px;
+    width: 130px;
+    height: 140px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -110px;
+}
+
+.bloco-5:hover{
+    cursor: pointer;
+}
+
 .html {
     width: 90px;
     margin-left: 83px;
@@ -207,6 +316,8 @@ main {
     margin-top: -30px;
     height: 200px;
     width: 400px;
+    position: relative;
+    margin-left: 540px;
 }
 
 .promocoes-2:hover {
@@ -251,13 +362,21 @@ main {
     margin-top: 20px;
 }
 
+.css-2 {
+    width: 90px;
+    margin-left: 54px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+}
+
 .promocoes-3 {
     border: 2px solid #2b2b2b;
     border-radius: 15px;
-    margin-top: -200px;
+    margin-top: -204px;
     height: 200px;
     width: 400px;
-    margin-left: 420px;
+    margin-left: 950px;
     position: absolute;
 }
 
@@ -265,15 +384,166 @@ main {
     cursor: pointer;
 }
 
+.promocoes-6 {
+    border: 2px solid;
+    border-color: #2b2b2b;
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px;
+    margin-top: 19px;
+    margin-left: 958px;
+    height: 190px;
+}
+
+.promocoes-6:hover {
+    cursor: pointer;
+}
+
+.promocoes-7 {
+    border: 2px solid;
+    border-color: #2b2b2b;
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1420px;
+    height: 190px;
+}
+
+.promocoes-7:hover {
+    cursor: pointer;
+}
+
+.form-login {
+    background-color: #2b2b2b;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    border-color: #2b2b2b;
+    width: 400px;
+    height: 450px;
+    margin-top: 250px;
+    margin-left: 730px;
+}
+
+.body-form {
+    background-color: white;
+}
+
+.enviar-login {
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 160px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.enviar-login:hover {
+    background-color: white;
+    color: #2b2b2b;
+}
+
+.cadastro {
+    color: white;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 140px;
+    position: absolute;
+    opacity: 80%;
+}
+
+.cadastro:hover {
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.cadastro-1 {
+    color: white;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 130px;
+    position: absolute;
+    opacity: 80%;
+}
+
+.cadastro-1:hover {
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.promocoes-4 {
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #2b2b2b;
+    padding: 10px;
+    width: 400px;
+    margin: 40px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.promocoes-4:hover{
+    cursor: pointer;
+}
+
+.promocoes-5 {
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #2b2b2b;
+    padding: 10px;
+    width: 400px;
+    height: 190px;
+    margin: 40px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.promocoes-5:hover{
+    cursor: pointer;
+}
+
+.js {
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 56px;
+    position: relative;
+}
+
+.python {
+    width: 90px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+
+#js-2 {
+    margin-top: 5px;
+    margin-left: 50px;
+    color: white;
+}
+
+#python-2 {
+    color: white;
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
 #logo-musk {
     width: 150px;
+    margin: 20px;
+    margin-top: -10px;
  }
+
 
 #txt-inicio {
     display: flex;
     position: absolute;
     margin-top: 90px;
 }
+
 
 #tecnologia {
     display: inline;
@@ -283,8 +553,9 @@ main {
 }
 
 #melhores {
-    margin-top: 50px;
+    margin-top: 65px;
     margin-left: 30px;
+    font-size: 28px;
 }
 
 #txt-1{
@@ -327,8 +598,16 @@ main {
     margin-top: -30px;
 }
 
+#p-index-2 {
+    font-size: 24px;
+    margin-left: 850px;
+    margin-top: -130px;
+}
+
 #promocoes {
     font-size: 60px;
+    margin-left: 650px;
+    margin-top: -10px;
 }
 
 #promos-limitadas {
@@ -354,6 +633,27 @@ main {
     cursor: pointer;
 }
 
+#hr-html-3{
+    margin-top: -420px;
+    margin-left: 1110px;
+    font-size: 35px;
+}
+
+#hr-html-3:hover {
+    cursor: pointer;
+}
+
+#hr-html-4{
+    margin-left: 1630px;
+    font-size: 35px;
+    margin-top: -80px;
+    position: absolute;
+}
+
+#hr-html-4:hover {
+    cursor: pointer;
+}
+
 #preco-antg{
     color: red;
     text-decoration: line-through;
@@ -366,6 +666,23 @@ main {
 #preco-novo {
     color: rgb(2, 187, 2);
     margin-left: 220px;
+    margin-top: -10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#preco-antg-2{
+    color: red;
+    text-decoration: line-through;
+    margin-top: -18px;
+    margin-left: 220px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#preco-novo-2 {
+    color: rgb(2, 187, 2);
+    margin-left: 240px;
     margin-top: -10px;
     font-size: 28px;
     cursor: pointer;
@@ -390,10 +707,26 @@ main {
     cursor: pointer;
 }
 
-#preco-novo-2 {
+#preco-novo-3 {
     color: rgb(2, 187, 2);
     margin-left: 650px;
     margin-top: -10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#preco-novo-4 {
+    color: rgb(2, 187, 2);
+    margin-left: 1110px;
+    margin-top: 10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#preco-novo-5 {
+    color: rgb(2, 187, 2);
+    margin-left: 1630px;
+    margin-top: -90px;
     font-size: 28px;
     cursor: pointer;
 }
@@ -406,10 +739,19 @@ main {
     font-size: 20px;
 }
 
+#css3-2 {
+    margin-top: 5px;
+    margin-left: 70px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
 #coracao {
     font-size: 30px;
     margin-top: -180px;
     margin-left: 350px;
+    position: absolute;
 }
 
 #coracao:hover {
@@ -420,8 +762,241 @@ main {
     font-size: 30px;
     margin-top: -180px;
     margin-left: 350px;
+    position: absolute;
 }
 
 #coracao-1:hover {
     color: red;
+    cursor: pointer;
 }
+
+#coracao-2 {
+    font-size: 30px;
+    margin-top: -185px;
+    margin-left: 355px;
+    position: absolute;
+}
+
+#coracao-2:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#coracao-3 {
+    font-size: 30px;
+    margin-top: -185px;
+    margin-left: 355px;
+    position: absolute;
+}
+
+#coracao-3:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#final {
+    background-color: #2b2b2b;
+    margin-top: 100px;
+    height: 200px;
+}
+
+#fale-conosco {
+    color: white;
+    font-size: 25px;
+    margin-left: 1000px;
+}
+
+#fale-nome {
+    color: white;
+    font-size: 30px;
+    margin-top: -45px;
+    margin-left: 100px;
+}
+
+#globo {
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 53px;
+}
+
+#email-login {
+    border: 2px solid;
+    border-color: white;
+    border-radius:15px;
+    width: 250px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 65px;
+}
+
+#senha-login {
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: white;
+    width: 250px;
+    height: 20px;
+    margin-left: 65px;
+    margin-top: -10px;
+}
+
+#texto-email {
+    color: white;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 18px;
+}
+
+#texto-senha {
+    color: white;
+    margin-top: 25px;
+    margin-left: 130px;
+    font-size: 18px;
+}
+
+#esqueceu-senha {
+    color: rgb(57, 120, 255);
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 140px;
+    opacity: 70%;
+}
+
+#esqueceu-senha:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+#sair-login {
+    margin-top: -10px;
+    margin-left: 380px;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 90px;
+    padding: 2px;
+}
+
+#sair-login:hover {
+    color: red;
+}
+
+#login-title {
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+#cadastro-title {
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+#termos-login {
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+#texto-termos {
+    margin-left: 78px;
+    margin-top: -18px;
+}
+
+#termos-blue {
+    color: rgb(0, 81, 255);
+    font-size: 13px;
+    margin-left: -1px;
+}
+
+#promo-1 {
+    position: absolute;
+    margin-left: 950px;
+}
+
+#promo-2 {
+    position: absolute;
+    margin-left: 130px;
+}
+
+#promo-3 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+#promo-4 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+#promo-5 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+#instagram {
+    width: 30px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+
+#linkedin {
+    width: 30px;
+    margin-left: 1020px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+#body-404 {
+    margin-top: 60px;
+}
+
+#voltar {
+    color: #2b2b2b;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 450px;
+}
+
+#voltar:hover{
+    background-color: #2b2b2b;
+    color: white;
+}
+
+#contato {
+    color: white;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: -145px;
+}
+
+#contato-nome {
+    color: white;
+    font-size: 25px;
+    margin-left: 600px;
+    margin-top: -70px;
+}
+
+#botao-underline {
+    text-decoration: underline;
+}
+
+#vermais {
+    color: #2b2b2b;
+    margin-left: 885px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#vermais:hover {
+    color: rgb(0, 81, 255);
+}
+
