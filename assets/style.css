@@ -188,7 +188,7 @@ main {
     height: 100px;
     border: 2px solid;
     border-radius: 14px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: -162px;
 }
 
@@ -203,7 +203,7 @@ main {
     height: 140px;
     border: 2px solid;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: -105px;    
 }
 
@@ -301,9 +301,39 @@ main {
     cursor: pointer;
 }
 
+.bloco-06 {
+    background-color: #2b2b2b;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 14px;
+    margin-left: 20px;
+    margin-top: -156px;
+}
+
+.bloco-06.beneficios{
+    cursor: pointer;
+}
+
+.bloco-6 {
+    background-color: gray;
+    padding: 10px;
+    width: 130px;
+    height: 106px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -74px;
+}
+
+.bloco-6:hover{
+    cursor: pointer;
+}
+
 .html {
     width: 90px;
-    margin-left: 83px;
+    margin-left: 53px;
     cursor: pointer;
     position: relative;
     margin-top: 20px;
@@ -505,6 +535,22 @@ main {
     cursor: pointer;
 }
 
+.promocoes-8 {
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #2b2b2b;
+    padding: 10px;
+    width: 400px;
+    margin: 40px;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 26%;
+}
+
+.promocoes-8:hover{
+    cursor: pointer;
+}
+
 .js {
     width: 80px;
     margin-top: 30px;
@@ -518,6 +564,12 @@ main {
     margin-top: 25px;
 }
 
+.php {
+    width: 90px;
+    margin-left: 50px;
+    margin-top: 55px;
+}
+
 
 #js-2 {
     margin-top: 5px;
@@ -529,6 +581,12 @@ main {
     color: white;
     margin-top: 5px;
     margin-left: 65px;
+}
+
+#ruby-2 {
+    color: white;
+    margin-top: 5px;
+    margin-left: 74px;
 }
 
 #logo-musk {
@@ -617,7 +675,7 @@ main {
 
 #html5 {
     margin-top: 5px;
-    margin-left: 90px;
+    margin-left: 60px;
     color: white;
     cursor: pointer;
     font-size: 20px;
@@ -648,9 +706,30 @@ main {
     font-size: 35px;
     margin-top: -80px;
     position: absolute;
-}
+}html
 
 #hr-html-4:hover {
+    cursor: pointer;
+}
+
+#hr-html-6{
+    margin-left: 240px;
+    font-size: 35px;
+    margin-top: -90px;
+    position: absolute;
+}
+
+#hr-html-6:hover {
+    cursor: pointer;
+}
+
+#php-3{
+    margin-top: -180px;
+    margin-left: 705px;
+    font-size: 35px;
+}
+
+#php-3:hover {
     cursor: pointer;
 }
 
@@ -688,6 +767,30 @@ main {
     cursor: pointer;
 }
 
+#preco-novo-01 {
+    color: rgb(2, 187, 2);
+    margin-left: 610px;
+    margin-top: -10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#preco-novo-6 {
+    color: rgb(2, 187, 2);
+    margin-left: 240px;
+    margin-top: 170px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#preco-novo-7 {
+    color: rgb(2, 187, 2);
+    margin-left: 705px;
+    margin-top: 40px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
 #hr-html-2{
     margin-top: -170px;
     margin-left: 650px;
@@ -698,11 +801,30 @@ main {
     cursor: pointer;
 }
 
+#hr-html-01{
+    margin-top: -170px;
+    margin-left: 610px;
+    font-size: 35px;
+}
+
+#hr-html-01:hover {
+    cursor: pointer;
+}
+
 #preco-antg-2{
     color: red;
     text-decoration: line-through;
     margin-top: -18px;
     margin-left: 650px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#preco-antg-01{
+    color: red;
+    text-decoration: line-through;
+    margin-top: -18px;
+    margin-left: 610px;
     font-size: 20px;
     cursor: pointer;
 }
@@ -925,7 +1047,7 @@ main {
 #promo-3 {
     position: absolute;
     margin-top: 250px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 #promo-4 {
@@ -1000,3 +1122,6 @@ main {
     color: rgb(0, 81, 255);
 }
 
+#titulo-catalogo {
+    margin-left: 50px;
+}
