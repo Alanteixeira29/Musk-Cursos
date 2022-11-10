@@ -1129,3 +1129,17 @@ main {
 #titulo-catalogo {
     margin-left: 50px;
 }
+
+#qrcode {
+    width: 100px;
+    margin-top: -60px;
+    margin-left: 780px;
+}
+
+#video {
+    width: 350px;
+    border-radius: 15px;
+    margin-top:270px;
+    margin-left: 430px;
+    position: absolute;
+}
