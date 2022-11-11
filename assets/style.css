@@ -1143,3 +1143,40 @@ main {
     margin-left: 430px;
     position: absolute;
 }
+
+.bar-pesquisa {
+    box-sizing: border-box;
+}
+
+.bar-pesquisa {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    margin-left: -350px;
+    position: absolute;
+}
+.bar-pesquisa input {
+    width: 20%;
+    height: 30px;
+    line-height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 25px;
+    z-index: 1;
+}
+.bar-pesquisa button {
+    background-color: #252525;
+    box-shadow: -50px 0 0 0 #252525;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
