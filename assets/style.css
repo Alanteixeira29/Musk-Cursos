@@ -87,7 +87,6 @@ main {
 .botao-sm {
     color: rgb(0, 81, 255);
     border: 2px solid;
-    border-radius: 15px;
     padding: 10px;
     margin-top: -40px;
     margin-left: 300px;
@@ -96,9 +95,8 @@ main {
 }
 
 .botao-sm:hover{
-    transition: 0.3s all;
-    background-color: rgb(0, 81, 255);
-    color: white;
+    transform: translateX(3px) translateY(3px);
+    box-shadow: #4332ff 7px 9px 0px;
 }
 
 .botao-sm2 {
