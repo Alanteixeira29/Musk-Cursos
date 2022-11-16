@@ -1129,9 +1129,11 @@ main {
 }
 
 #qrcode {
-    width: 100px;
+    width: 120px;
     margin-top: -60px;
     margin-left: 780px;
+    border: 2px solid;
+    border-radius: 10px;
 }
 
 #video {
