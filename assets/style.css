@@ -73,7 +73,7 @@ main {
 }
 
 .navegation {
-    margin-left: 1150px;
+    margin-left: 150px;
     position: relative;
     margin-top: -50px;
 }
@@ -96,7 +96,7 @@ main {
 
 .botao-sm:hover{
     transform: translateX(3px) translateY(3px);
-    box-shadow: #4332ff 7px 9px 0px;
+    box-shadow: #4332ff 5px 4px 2px;
 }
 
 .botao-sm2 {
@@ -637,6 +637,7 @@ main {
     color: white;
     margin-top: 0px;
     font-size: 50px;
+    margin-left: 50px;
 }
 
 #musk {
@@ -919,8 +920,8 @@ main {
 }
 
 #final {
-    background-color: #2b2b2b;
-    margin-top: 100px;
+    background: linear-gradient(to right, #4332ff , #4332ff50 );
+    margin-top: 0px;
     height: 200px;
 }
 
@@ -1144,6 +1145,34 @@ main {
     position: absolute;
 }
 
+#parceiros{
+    border: 2px solid transparent;
+    height: 500px;
+    position: relative;
+    margin-top: 100px;
+    background-color: #2b2b2b;
+}
+
+#txt-parceiros{
+    color: #ffffff;
+    margin-left: 120px;
+}
+
+#senac{
+    width: 150px;;
+    margin-left: 7%;
+}
+
+#spacex{
+    width: 150px;
+    margin-left: 2%;
+}
+
+#tesla{
+    width: 80px;
+    margin-left: 2%;
+}
+
 .bar-pesquisa {
     box-sizing: border-box;
 }
@@ -1157,6 +1186,7 @@ main {
     margin-left: -350px;
     position: absolute;
 }
+
 .bar-pesquisa input {
     width: 20%;
     height: 30px;
@@ -1169,6 +1199,7 @@ main {
     border-radius: 25px;
     z-index: 1;
 }
+
 .bar-pesquisa button {
     background-color: #252525;
     box-shadow: -50px 0 0 0 #252525;
