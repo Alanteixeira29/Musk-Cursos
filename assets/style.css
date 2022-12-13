@@ -78,12 +78,6 @@ main {
     margin-top: -4%;
 }
 
-.navegation-2 {
-    margin-left: 1150px;
-    position: relative;
-    margin-top: -50px;
-}
-
 .botao-sm {
     color: rgb(0, 81, 255);
     border: 2px solid;
@@ -1116,8 +1110,7 @@ main {
 
 #vermais {
     color: #2b2b2b;
-    margin-left: 885px;
-    margin-top: 30px;
+    margin-top: 2%;
     position: absolute;
 }
 
@@ -1149,7 +1142,7 @@ main {
     border: 2px solid transparent;
     height: 500px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: #2b2b2b;
 }
 
@@ -1211,4 +1204,37 @@ main {
     font-size: 1rem;
     font-family: sans-serif;
     border-radius: 25px;
+}
+
+#conteudo{
+    position: relative;
+    display: block;
+}
+
+.corpo{
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    height: 100px;
+    width: 350px;
+    padding: 5px;
+    float: left;
+    margin: 1.5%;
+    background-color: #262626;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.corpo:hover{
+    background-color: #ffffff;
+    border: 2px solid #2b2b2b;
+    color: #262626;
+}
+
+#html{
+    width: 25%;
+    margin-top: 2%;
+}
+
+#txt-corpo{
+    margin-top: -2%;
 }
