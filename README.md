@@ -1,2 +1,2 @@
 # Musk-Cursos
- plataforma inovadora de cursos de tecnologia profissionalizantes.
+ Plataforma inovadora de cursos de tecnologia profissionalizantes.
