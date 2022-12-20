@@ -151,7 +151,7 @@ main {
 }
 
 .sobrenos {
-    background-color: #2b2b2b;
+    background: linear-gradient(to right, #303030, #282828);
     color: white;
     margin-top: 300px;
     margin-left: 0px;
@@ -449,7 +449,7 @@ main {
 }
 
 .body-form {
-    background-color: white;
+    background: linear-gradient(to right,#003cffa3, #15b6f5a3);
 }
 
 .enviar-login {
@@ -916,7 +916,7 @@ main {
 #final {
     background: linear-gradient(to right, #4332ff , #4332ff50 );
     margin-top: 0px;
-    height: 200px;
+    height: 220px;
 }
 
 #fale-conosco {
@@ -989,8 +989,6 @@ main {
     margin-top: -10px;
     margin-left: 380px;
     font-size: 15px;
-    border: 2px solid;
-    border-radius: 90px;
     padding: 2px;
 }
 
@@ -1093,8 +1091,8 @@ main {
 #contato {
     color: white;
     font-size: 20px;
-    margin-left: 600px;
-    margin-top: -145px;
+    margin-left: -37%;
+    margin-top: -75px;
 }
 
 #contato-nome {
